@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.1.1.slim.min.js"></script>
+    <style>
+        body{
+            margin: 0px 0px;
+            background-color: #ccc;
+        }
+        .container{
+            width:500px;
+            margin: 20px auto;
+        }
+        #imgContainer{
+            position: relative;
+            overflow: hidden;
+            margin:40px auto;
+
+        }
+        .PartContainer{
+            position: absolute;
+            border:1px solid #ff7680;
+            overflow: hidden;
+            box-sizing: border-box;
+            border-radius: 4px;
+
+        }
+        .movestyle{
+            transition: left .3s ease-in-out, top .3s ease-in-out;
+            cursor: move;
+        }
+        img{
+            position: absolute;
+        }
+        .textContainer{
+            height:40px;
+            line-height: 40px;
+            width:200px;
+            margin: 20px auto;
+            padding-bottom: 20px;
+        }
+        input{
+            outline: none;
+            line-height: 40px;
+        }
+        .click1 ,.click2{
+            background-color: #ff7680;
+            border-color: #ff7680;
+            color: #FFF;
+            width: 200px;
+            height: 40px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 20px;
+            border: none;
+            border-radius: 4px;
+            padding-top: 5px;
+        }
+        .click1:hover,.click2:hover{
+            cursor: pointer;
+            box-shadow:lightpink;
+            background-color: indianred;
+        }
+    </style>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="textContainer">
+        <input type ="button" class="click1" value="点我开始游戏">
+        <input type ="button" class="click2" value="太难了！换张图片">
+    </div>
+
+    <div class="buttonContainer"></div>
+    <div id="imgContainer"></div>
+
+
+</body>
+</html>
