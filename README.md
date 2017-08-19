@@ -5,3 +5,5 @@
 用原生js自己做了一个原生js的九宫格拖拽拼图小游戏。
 
 项目地址：https://sxzy.github.io/puzzleGame-by-pure-Js/puzzlegame.html
+
+<img src='/img/拼图.png。'></img>
