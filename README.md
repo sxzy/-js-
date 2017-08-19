@@ -7,3 +7,4 @@
 项目地址：https://sxzy.github.io/puzzleGame-by-pure-Js/puzzlegame.html
 
 <img src='./img/拼图.png'></img>
+<img src='./img/拼图2.png'></img>
